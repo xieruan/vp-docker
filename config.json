@@ -1,7 +1,7 @@
-{"url" : "https://api.xxx.com",
+{"url" : "https://your v2board domain",
 "token" : "token",
 "nodeID" : 3,
-"localPort" : 10085,
+"localPort" : 10085, 
 "checkRate" : 60,
 "loglevel" : "info"
 }
