@@ -1,4 +1,4 @@
-## V2Ray Plugin For V2Board
+## V2Ray Plugin For V2Board Docker
 ### 安装docker
   
 ```bash
