@@ -18,7 +18,7 @@ systemctl enable docker #开机自启
 
 git clone https://github.com/xieruan/vp-docker.git
 ```
-配置docker-compose.yml和config.json
+## 配置docker-compose.yml和config.json
 
 ### 启动vp-docker
 ```bash
