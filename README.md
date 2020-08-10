@@ -1,5 +1,5 @@
 ## V2Ray Plugin For V2Board
-###安装docker
+### 安装docker
   
 ```bash
 
@@ -11,7 +11,7 @@ rm -rf `which dc`  # 若系统中存在 dc 则删除，这个 dc 就是个计算
 ln -s /usr/local/bin/docker-compose /usr/bin/dc
 
 ```
-###下载
+### 下载
 
 ```bash
 
@@ -19,7 +19,7 @@ git clone https://github.com/xieruan/vp-docker.git
 ```
 配置docker-compose.yml和config.json
 
-###启动docker
+### 启动docker
 ```bash
 dc up
 ```
