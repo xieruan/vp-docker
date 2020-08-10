@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  v2ray-tcp:
+    image: xieruan/vp:1.0.2
+    container_name: vp
+    restart: always
+    ports:
+      - "服务端口:服务端口"
+    volumes:
+      - ./config.json:/home/vp/cfg.json
+    logging:
+      driver: "json-file"
+      options:
+        max-size: 2g
