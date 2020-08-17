@@ -9,8 +9,7 @@ services:
       - "服务端口:服务端口"
     volumes:
       - ./config.json:/home/vp/cfg.json
-      - /root/.cert/server.key:/root/.cert/server.key
-      - /root/.cert/server.crt:/root/.cert/server.crt
+      - /root/.cert:/root/.cert
     logging:
       driver: "json-file"
       options:
