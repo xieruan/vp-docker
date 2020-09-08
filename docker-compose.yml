@@ -1,1 +1,16 @@
+version: '3'
 
+services:
+  vp-docker:
+    image: xieruan/vp:latest
+    container_name: vp
+    restart: always
+    ports:
+      - "服务端口:服务端口"
+    volumes:
+      - ./config.json:/home/vp/cfg.json
+      - /root/.cert:/root/.cert
+    logging:
+      driver: "json-file"
+      options:
+        max-size: 500m
